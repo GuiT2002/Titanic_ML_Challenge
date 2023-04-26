@@ -69,8 +69,7 @@ def survived(path):
     return survived_tensor
 
 
-train_path = "C:\\Users\\huilh\\OneDrive\\Área de Trabalho\\AI Training Models\\Kaggle Competitions\\Titanic - " \
-             "Machine Learning from Disaster\\train.csv"
+train_path = "\\path_to_file\\train.csv"
 
 
 x_train, y_train = training_data(train_path), survived(train_path)
