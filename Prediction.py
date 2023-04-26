@@ -6,8 +6,7 @@ import csv
 
 model = load_model('TitanicAI_v9.2.h5')
 
-test_path = "C:\\Users\\huilh\\OneDrive\\Área de Trabalho\\AI Training Models\\Kaggle Competitions\\Titanic - " \
-            "Machine Learning from Disaster\\test.csv"
+test_path = "\\path_to_file\\test.csv"
 
 
 def training_data(csv_path):
